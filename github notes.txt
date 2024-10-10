@@ -72,7 +72,7 @@ for commit the things	(git commit -m "meaning full message")
 .merge_conflict - when you are in abc file form one branch you are doning commit and in same file form another branch you alredy did commit  , then you are going to merge on that time conflict issue is occur.   if you want to resolve , on that time you have to manually change and  add,commit and push..
 
 Note point- change is availble for specified branch if you want to see same changes in otherbranch then you have to do merge   
-            here one senrio , if you do change is in branch from that branch without save if you want to jump another brach then you are getting one error is {commit your change or stash them before you switch branches}       
+               here one senrio , if you do change is in branch from that branch without save if you want to jump another brach then you are getting one error is {commit your change or stash them before you switch branches}       
 
  
  ------------------------------------------------------------stash--------------------------------------------------------------------
@@ -96,4 +96,4 @@ git pull is a Git command used to fetch and merge changes from a remote reposito
 git pull origin main :  This command fetches changes from the main branch of the remote repository named origin and merges them into your current local branch
 Keep in mind that if there are local changes that haven't been committed, Git may attempt to merge remote changes into your local branch, potentially resulting in conflicts. It's a good practice to commit or stash your local changes before pulling to avoid conflicts
 
- 
+git  
